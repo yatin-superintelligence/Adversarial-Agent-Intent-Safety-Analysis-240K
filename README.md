@@ -4,11 +4,11 @@
 
 ## Abstract
 
-The **Adversarial-Agent-Intent-Safety-Analysis-240K** dataset is a deterministically structured dataset featuring **242,863** context-rich adversarial prompts and safety evaluations. Engineered strictly for training frontier command-and-control models, guardrail classifiers, and red-teaming agents, it encourages models to parse multi-layered intention across 126 critical risk vectors.
+The **Adversarial-Agent-Intent-Safety-Analysis-240K** dataset is a deterministically structured dataset featuring **242,454** context-rich adversarial prompts and safety evaluations. Engineered strictly for training frontier command-and-control models, guardrail classifiers, and red-teaming agents, it encourages models to parse multi-layered intention across 126 critical risk vectors.
 
 This design trains models to decouple the *surface interpretation* of a request from its *true capability* footprint, requiring a comprehensive **Intent Audit** before generating execution plans or writing code.
 
-<img src="AI Agent Rejecting Adversarial Prompt.jpg" alt="AI Agent Rejecting Adversarial Prompt" width="100%"/>
+<img src="https://raw.githubusercontent.com/yatin-superintelligence/Adversarial-Agent-Intent-Safety-Analysis-240K/main/AI%20Agent%20Rejecting%20Adversarial%20Prompt.jpg" alt="AI Agent Rejecting Adversarial Prompt" width="100%"/>
 
 ## The Tripartite Obfuscation Framework
 
@@ -32,7 +32,7 @@ This collection relies on hyper-contextualized **Dual-Use Abstractions** to simu
 
 **Summary Statistics:**
 
-- **Total Operations (Rows):** 242,863
+- **Total Operations (Rows):** 242,454
 - **Dataset Density (Average Words Per Row):** ~509 words
 - **Dimensionality:** 496 Atomic "Adversarial Payloads" mapped across 12 high-level threat domains.
 - **Final Dataset Static Volume:** ~123.6 Million words (149.7+ Million exact OpenAI `cl100k_base` tokens).
@@ -103,7 +103,7 @@ An average TF-IDF cosine similarity of 6.34% confirms that the engineering pipel
 ## Recommended Use Cases
 
 - **Guardrail Classifier Training:** Fine-tune models to intercept and flag adversarial prompts before they reach execution layers in agentic pipelines.
-- **Red-Teaming Frontier Models:** Stress-test enterprise LLMs against 242,863 uniquely engineered adversarial prompts spanning 126 critical risk vectors.
+- **Red-Teaming Frontier Models:** Stress-test enterprise LLMs against 242,454 uniquely engineered adversarial prompts spanning 126 critical risk vectors.
 - **Intent Router Fine-Tuning:** Train System 2 routing agents to decouple surface instruction from underlying adversarial capability before delegating tasks.
 - **Defense-in-Depth Friction Training:** Build models capable of deploying targeted clarifying questions to verify authorization without triggering hard refusals.
 - **Dual-Use Threat Research:** Study how sophisticated adversaries abstract malicious payloads inside legitimate professional workflows to evade AI filters.
