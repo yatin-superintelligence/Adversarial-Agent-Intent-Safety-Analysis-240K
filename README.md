@@ -4,7 +4,7 @@
 
 ## Abstract
 
-The **Adversarial-Agent-Intent-Safety-Analysis-240K** dataset is a deterministically structured dataset featuring **242,454** context-rich adversarial prompts and safety evaluations. Engineered strictly for training frontier command-and-control models, guardrail classifiers, and red-teaming agents, it encourages models to parse multi-layered intention across 126 critical risk vectors.
+The **Adversarial-Agent-Intent-Safety-Analysis-240K** is a deterministically structured dataset featuring **242,454** context-rich adversarial prompts and safety evaluations. Engineered strictly for training frontier command-and-control models, guardrail classifiers, and red-teaming agents, it encourages models to parse multi-layered intention across 126 critical risk vectors.
 
 This design trains models to decouple the *surface interpretation* of a request from its *true capability* footprint, requiring a comprehensive **Intent Audit** before generating execution plans or writing code.
 
@@ -89,7 +89,7 @@ This algorithmic matrix produces over **808,500,000 (808.5 Million) valid permut
 
 ## Dataset Diversity & Prompt Similarity Metrics
 
-To empirically validate the diversity of the engineered adversarial prompts, I performed a rigorous semantic similarity analysis on a randomized 50,000-prompt subset representing 1.25 billion pairwise comparisons. This dataset demonstrates extraordinary cross-domain lexical variance.
+To empirically validate the diversity of the adversarial prompts, I performed a rigorous semantic similarity analysis on a randomized 50,000-prompt subset representing 1.25 billion pairwise comparisons. This dataset demonstrates extraordinary cross-domain lexical variance.
 
 **Similarity Test Results (Adversarial Prompt Column):**
 
@@ -98,7 +98,7 @@ To empirically validate the diversity of the engineered adversarial prompts, I p
 - **Average Jaccard Overlap:** `0.0791` (7.91%)
 - **Highly Similar Pairs (>80% cosine match):** `0` out of 1,249,975,000 pairs.
 
-An average TF-IDF cosine similarity of 6.34% confirms that the engineering pipeline successfully avoided semantic collapse. The prompts are distinct not just in their malicious intent, but in their vocabulary, narrative structure, assumed personas, and simulated software environments.
+An average TF-IDF cosine similarity of 6.34% confirms that the pipeline successfully avoided semantic collapse. The prompts are distinct not just in their malicious intent, but in their vocabulary, narrative structure, assumed personas, and simulated software environments.
 
 ## Recommended Use Cases
 
